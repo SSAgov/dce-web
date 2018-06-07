@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot 1`] = `
+<div
+  className="container"
+>
+  <form
+    acceptCharset={undefined}
+    action={undefined}
+    autoComplete={undefined}
+    className="rjsf"
+    encType={undefined}
+    id={undefined}
+    method={undefined}
+    name={undefined}
+    noValidate={false}
+    onSubmit={[Function]}
+    target={undefined}
+  >
+    <div
+      className="form-group field field-object"
+    >
+      <fieldset>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_appID"
+          >
+            App ID*
+          </label>
+          <div />
+          <select
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_appID"
+            multiple={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={true}
+            value="FI1"
+          >
+            <option
+              value="ERE"
+            >
+              ERE
+            </option>
+            <option
+              value="HIT"
+            >
+              HIT
+            </option>
+            <option
+              value="H1T"
+            >
+              H1T
+            </option>
+            <option
+              value="FI1"
+            >
+              FI1
+            </option>
+            <option
+              value="FI2"
+            >
+              FI2
+            </option>
+            <option
+              value="Other"
+            >
+              Other
+            </option>
+          </select>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_convertTo"
+          >
+            Convert To*
+          </label>
+          <div />
+          <select
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_convertTo"
+            multiple={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={true}
+            value="tif"
+          >
+            <option
+              value="tif"
+            >
+              tif
+            </option>
+            <option
+              value="PDF"
+            >
+              PDF
+            </option>
+            <option
+              value="PDF OCR"
+            >
+              PDF OCR
+            </option>
+            <option
+              value="Other"
+            >
+              Other
+            </option>
+          </select>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_file"
+          >
+            File*
+          </label>
+          <div />
+          <input
+            id="testFileName"
+            onChange={[Function]}
+            required={true}
+            type="file"
+          />
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_hash"
+          >
+            MD5 Hash*
+          </label>
+          <div />
+          <div
+            className="hashRadio"
+          >
+            <input
+              name="hashOption"
+              onChange={[Function]}
+              type="radio"
+              value="yes"
+            />
+             Yes
+            <input
+              name="hashOption"
+              onChange={[Function]}
+              type="radio"
+              value="no"
+            />
+             No
+            <button
+              className="btn btn-primary"
+              id="generate"
+            >
+              Generate
+            </button>
+
+          </div>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_notification"
+          >
+            Notification
+          </label>
+          <div />
+          <input
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_notification"
+            label="Notification"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            readOnly={true}
+            required={false}
+            type="text"
+            value="POLL"
+          />
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_DCI"
+          >
+            DCI
+          </label>
+          <div />
+          <input
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_DCI"
+            label="DCI"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            readOnly={true}
+            required={false}
+            type="text"
+            value=""
+          />
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_returnCode"
+          >
+            Return Code
+          </label>
+          <div />
+          <input
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_returnCode"
+            label="Return Code"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            readOnly={true}
+            required={false}
+            type="text"
+            value=""
+          />
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_returnDescription"
+          >
+            Return Description
+          </label>
+          <div />
+          <input
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_returnDescription"
+            label="Return Description"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            readOnly={true}
+            required={false}
+            type="text"
+            value=""
+          />
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_contextID"
+          >
+            Context ID
+          </label>
+          <div />
+          <select
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_contextID"
+            multiple={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            value="DCEv01.0"
+          >
+            <option
+              value="DCEv01.0"
+            >
+              DCEv01.0
+            </option>
+          </select>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_consumerID"
+          >
+            Consumer ID
+          </label>
+          <div />
+          <select
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_consumerID"
+            multiple={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            value="DCELBT1v01.0"
+          >
+            <option
+              value="DCELBT1v01.0"
+            >
+              DCELBT1v01.0
+            </option>
+          </select>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_environment"
+          >
+            Environment
+          </label>
+          <div />
+          <select
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_environment"
+            multiple={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            value="DEV"
+          >
+            <option
+              value="DEV"
+            >
+              DEV
+            </option>
+            <option
+              value="VAL"
+            >
+              VAL
+            </option>
+          </select>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_envType"
+          >
+            DCE EnvType
+          </label>
+          <div />
+          <select
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_envType"
+            multiple={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            required={false}
+            value="DEV DataPower"
+          >
+            <option
+              value="DEV DataPower"
+            >
+              DEV DataPower
+            </option>
+            <option
+              value="DEV LB"
+            >
+              DEV LB
+            </option>
+          </select>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_dceURL"
+          >
+            DCE URL
+          </label>
+          <div />
+          <input
+            autoFocus={false}
+            className="form-control"
+            disabled={false}
+            id="root_dceURL"
+            label="DCE URL"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            readOnly={false}
+            required={false}
+            type="text"
+            value="[SERVICE_ENDPOINT]"
+          />
+          <div />
+          <div />
+        </div>
+      </fieldset>
+      <div />
+      <div />
+    </div>
+    <p>
+      <button
+        className="btn btn-info"
+        type="submit"
+      >
+        Submit
+      </button>
+    </p>
+  </form>
+  <a
+    id="downloadFile"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    Retrieve
+  </a>
+  <h4>
+    API Response
+  </h4>
+  <pre>
+
+  </pre>
+  <br />
+  <br />
+  <div
+    style={
+      Object {
+        "marginLeft": "50%",
+      }
+    }
+  >
+
+  </div>
+</div>
+`;

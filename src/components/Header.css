@@ -1,0 +1,10 @@
+.divbar 
+{
+   top: 0px;
+   margin:0px;  
+   padding: 0px 2px 2px 3px;    
+   border-width: 2px;
+   border-bottom: 20px #c0c0c0;
+   background-color: white;
+   width: 100%;
+}

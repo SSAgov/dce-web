@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #333;
+  height: 150px;
+  padding: 20px;
+  color:white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/***App.js***/
+
+.column{
+  align-content: center;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.grid{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.homePageGlyphicon{
+  font-size: 5.5vw;
+  color: white
+}
+
+.homeButton{
+  width: 80%;
+  min-width: 100px;
+  margin: 20px;
+}
+
+.homeButton:hover{
+  background:#283A90
+}
+
+.App-h1-Header{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #454545;
+}
+
+
+ 
+ 
+ 
+ 
+ .ReactModal__Overlay { 
+   -webkit-perspective: 600; 
+   perspective: 600; 
+   opacity: 0; 
+   overflow-x: hidden; 
+   overflow-y: auto; 
+   background-color: rgba(0, 0, 0, 0.5); 
+   z-index: 101; 
+ } 
+ 
+ 
+ .ReactModal__Overlay--after-open { 
+   opacity: 1; 
+   transition: opacity 150ms ease-out; 
+ } 
+ 
+ 
+ .ReactModal__Content { 
+   -webkit-transform: scale(0.5) rotateX(-30deg); 
+   transform: scale(0.5) rotateX(-30deg); 
+ } 
+ReactModal__Content--after-open { 
+   -webkit-transform: scale(1) rotateX(0deg); 
+   transform: scale(1) rotateX(0deg); 
+   transition: all 150ms ease-in; 
+ } 
+ 
+ 
+.ReactModal__Overlay--before-close { 
+   opacity: 0; 
+ } 
+ 
+  .ReactModal__Content--before-close { 
+   -webkit-transform: scale(0.5) rotateX(30deg); 
+   transform: scale(0.5) rotateX(30deg); 
+   transition: all 150ms ease-in; 
+ } 
+ 
+ 
+ .ReactModal__Content.modal-dialog { 
+   border: none; 
+   background-color: transparent; 
+ } 
+ 
+ 
+ /*error tip style*/ 
+ .animated { 
+   animation-fill-mode: both; 
+ } 
+ 
+ .animated.bounceIn, 
+ .animated.bounceOut{ 
+   animation-duration: .75s; 
+ } 
+ 
+ 
+ .animated.shake{ 
+   animation-duration: .3s; 
+ } 
+ 
+ 
+ td.react-bs-table-expand-cell { 
+     cursor: pointer; 
+ } 
+ 
+ 
+ @keyframes shake { 
+   from, to { 
+     transform: translate3d(0, 0, 0); 
+   } 
+ 
+ 
+   10%,  50%,  90% { 
+     transform: translate3d(-10px, 0, 0); 
+   } 
+ 
+ 
+   30%, 70%{ 
+     transform: translate3d(10px, 0, 0); 
+   } 
+ } 
+ 
+ 
+ .shake {
+      animation-name: shake; } 
+ 
+ 
+ @keyframes bounceIn { 
+   from, 20%, 40%, 60%, 80%, to { 
+     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+   } 
+ 
+ 
+   0% { 
+     opacity: 0; 
+     transform: scale3d(.3, .3, .3); 
+   } 
+ 
+ 
+   20% { 
+     transform: scale3d(1.1, 1.1, 1.1); 
+   } 
+ 
+ 
+   40% { 
+     transform: scale3d(.9, .9, .9); 
+   } 
+ 
+   60% { 
+     opacity: 1; 
+     transform: scale3d(1.03, 1.03, 1.03); 
+   }  
+
+   80% { 
+     transform: scale3d(.97, .97, .97); 
+   } 
+ 
+ 
+   to { 
+     opacity: 1; 
+     transform: scale3d(1, 1, 1); 
+   } 
+ } 
+ 
+ 
+ .bounceIn { 
+   animation-name: bounceIn; 
+ } 
+ 
+ 
+ @keyframes bounceOut { 
+   20% { 
+     transform: scale3d(.9, .9, .9); 
+  } 
+ 
+ 
+   50%, 55% { 
+     opacity: 1; 
+    transform: scale3d(1.1, 1.1, 1.1); 
+   } 
+ 
+ 
+   to { 
+     opacity: 0; 
+     transform: scale3d(.3, .3, .3); 
+   } 
+ } 
+ 
+ 
+ .bounceOut { 
+   animation-name: bounceOut; 
+ } 

@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot 1`] = `
+<div
+  className="container"
+>
+  <form
+    acceptCharset={undefined}
+    action={undefined}
+    autoComplete={undefined}
+    className="rjsf"
+    encType={undefined}
+    id={undefined}
+    method={undefined}
+    name={undefined}
+    noValidate={false}
+    onSubmit={[Function]}
+    target={undefined}
+  >
+    <div
+      className="form-group field field-object"
+    >
+      <fieldset>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_appID"
+          >
+            App ID*
+          </label>
+          <div />
+          <div>
+            <input
+              autoComplete="off"
+              className="form-control"
+              list="appID"
+              name="someName"
+              onChange={[Function]}
+              placeholder="Select one..."
+              type="text"
+            />
+            <datalist
+              id="appID"
+            />
+          </div>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_convertTo"
+          >
+            Convert To*
+          </label>
+          <div />
+          <div>
+            <input
+              className="form-control"
+              id="multiConvertTo"
+              list="convertTo"
+              onChange={[Function]}
+              placeholder="Select one..."
+              type="text"
+            />
+            <datalist
+              id="convertTo"
+            />
+          </div>
+          <div />
+          <div />
+        </div>
+        <div
+          className="form-group field field-string  uiSchema"
+        >
+          <label
+            className="control-label"
+            htmlFor="root_file"
+          >
+            File*
+          </label>
+          <div />
+          <input
+            id="fileName"
+            onChange={[Function]}
+            required={true}
+            type="file"
+          />
+          <div />
+          <div />
+        </div>
+      </fieldset>
+      <div />
+      <div />
+    </div>
+    <div>
+      <button
+        className="btn btn-info"
+        type="submit"
+      >
+        Convert
+      </button>
+    </div>
+  </form>
+  <div
+    style={
+      Object {
+        "marginLeft": "50%",
+      }
+    }
+  >
+    
+  </div>
+  <div
+    className="conversionErrors"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h4>
+      Uh Oh! Looks like an error occurred. Please try again. If you continue to have issues use the contact links for help.
+    </h4>
+  </div>
+  <div
+    className="conversionErrors"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h4>
+      
+    </h4>
+  </div>
+  <div
+    className="conversionErrors"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h4>
+      File size exceeded. Please remove or reselect files.
+    </h4>
+  </div>
+  <div
+    className="conversionErrors"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h4>
+      
+    </h4>
+  </div>
+</div>
+`;
